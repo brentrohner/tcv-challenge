@@ -1,4 +1,4 @@
-import Item from '../Todo/model/todo';
+import Item from './todoSchema';
 import { Request, Response } from 'express';
 import * as uuid from 'uuid';
 
