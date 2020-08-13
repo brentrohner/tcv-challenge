@@ -1,6 +1,4 @@
 import { getTodos, updateTodo, createTodo } from './../redux/actions/todo';
-import { useDispatch } from 'react-redux';
-import { useMemo } from 'react';
 import { AnyAction } from 'redux';
 import axios from 'axios';
 import { ThunkDispatch } from 'redux-thunk';
